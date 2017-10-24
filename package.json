@@ -1,0 +1,47 @@
+{
+  "name": "frasierjs",
+  "version": "1.0.0",
+  "description": "a pretentious but classy scaffolding for old dogs learning new tricks -or- an eclectic marriage of previously discombobulating up-start components and the necessary plumbing to harness their efficiencies.",
+  "main": "toserve.coffee",
+  "scripts": {
+    "test": "mocha tests/thesuitelife.coffee"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/etweb37/frasierjs.git"
+  },
+  "keywords": [
+    "Node",
+    "Grunt",
+    "Sass",
+    "Pug",
+    "Scaffold",
+    "Express",
+    "live-server"
+  ],
+  "author": "erick.tengelitsch",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/etweb37/frasierjs/issues"
+  },
+  "homepage": "https://github.com/etweb37/frasierjs#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "chalk": "^2.2.0",
+    "express": "^4.16.2",
+    "moment": "^2.19.1"
+  },
+  "devDependencies": {
+    "expect": "^21.2.1",
+    "grunt": "^1.0.1",
+    "grunt-cli": "^1.2.0",
+    "grunt-contrib-clean": "^1.1.0",
+    "grunt-contrib-coffee": "^1.0.0",
+    "grunt-contrib-connect": "^1.0.2",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-pug": "^1.0.0",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "mocha": "^4.0.1"
+  }
+}
