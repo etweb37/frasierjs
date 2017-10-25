@@ -57,8 +57,16 @@ module.exports = (grunt) ->
         files: ['**/*.pug', '**/*.coffee', '**/*.sass', 'public/**']
         tasks: ['default']
 
+    connect:
+      server:
+        options:
+          port: 8080
+          base: 'dist'
+          open: true
+
   # Load grunt modules
   grunt.loadNpmTasks module for module in [
+    'grunt-contrib-connect'
     'grunt-contrib-coffee'
     'grunt-contrib-clean'
     'grunt-contrib-copy'
@@ -69,4 +77,5 @@ module.exports = (grunt) ->
 
   # Regsiter and define tasks
   grunt.registerTask 'transpile', ['coffee', 'sass', 'pug']
-  grunt.registerTask 'default', ['clean', 'copy', 'transpile', 'watch']
+  grunt.registerTask 'default', ['clean', 'copy', 'transpile']
+  grunt.registerTask 'live', ['default', 'connect', 'watch']
