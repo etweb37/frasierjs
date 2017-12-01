@@ -1,6 +1,6 @@
 ![](./public/imgs/frasier_100.svg)  
 # FrasierJS
-... a pretentious but classy scaffolding for old dogs learning new tricks -or- an eclectic marriage of previously discombobulating up-start components and the necessary plumbing to harness their efficiencies.
+... a pretentious but classy scaffolding for old dogs learning new tricks -or- an eclectic marriage of previously discombobulating up-start components and the necessary tubing to distill their efficiencies.
 
 ### Utilizing
 * Coffee Script
