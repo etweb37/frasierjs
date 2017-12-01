@@ -1,0 +1,17 @@
+mixin header(title)
+  doctype html
+  html(lang="en")
+    head
+      title= title
+
+      // meta tags
+      meta(name="viewport" content="width=device-width, initial-scale=1")
+
+      // css links
+      link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css")
+      link(rel="stylesheet" href="css/example.css")
+      link(href="https://fonts.googleapis.com/css?family=Droid+Serif|Open+Sans:400" rel="stylesheet")
+
+      // Script imports
+      script(src="http://localhost:35729/livereload.js")
+      script(src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous")
