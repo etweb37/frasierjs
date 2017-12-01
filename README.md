@@ -11,9 +11,12 @@
 
 ### To begin...
 ```
-# too install
 npm install
 grunt
+```
+### To develop...
+```
+grunt live
 ```
 ### Structure
 ```
